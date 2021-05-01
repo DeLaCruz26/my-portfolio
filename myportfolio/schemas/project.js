@@ -32,7 +32,11 @@ export default {
             },
         },
         {
-            name: 'link',
+            name: 'link1',
+            type: 'url',
+        },
+        {
+            name: 'link2',
             type: 'url',
         },
         {
