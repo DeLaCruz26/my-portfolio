@@ -15,25 +15,25 @@ const NavBar = () => {
                         DF
                    </NavLink>
                    <NavLink to='/post' 
-                   className='inline-flex items-center py-3 px-3 my-6 rounded text-indigo-100 hover:text-gray-800'
+                   className='hidden md:inline-flex items-center py-3 px-3 my-6 rounded text-indigo-100 hover:text-gray-800'
                    activeClassName='text-indigo-50 bg-indigo-700'
                    >
                        Blogs
                    </NavLink>
                    <NavLink to='/project' 
-                   className='inline-flex items-center py-3 px-3 my-6 rounded text-indigo-100 hover:text-gray-800'
+                   className='hidden md:inline-flex items-center py-3 px-3 my-6 rounded text-indigo-100 hover:text-gray-800'
                    activeClassName='text-indigo-50 bg-indigo-700'
                    >
                        Projects
                    </NavLink>
                    <NavLink to='/about' 
-                   className='inline-flex items-center py-3 px-3 my-6 rounded text-indigo-100 hover:text-gray-800'
+                   className='hidden md:inline-flex items-center py-3 px-3 my-6 rounded text-indigo-100 hover:text-gray-800'
                    activeClassName='text-indigo-50 bg-indigo-700'
                    >
                        About
                    </NavLink>
                </nav>
-               <div className='inline-flex py-3 px-3 my-6'>
+               <div className='hidden md:inline-flex py-3 px-3 my-6'>
                 <SocialIcon url='https://github.com/DeLaCruz26' className='mr-4' target='_blank' fgColor='#fff' style={{ height: 35, width: 35 }} />
                 <SocialIcon url='https://www.linkedin.com/in/dametrik-fick-34971913a/' className='mr-4' target='_blank' fgColor='#fff' style={{ height: 35, width: 35 }} />
                 <SocialIcon url='https://www.youtube.com/channel/UCGqCUBv6EGv7OBuajQUZ3oQ' className='mr-4' target='_blank' fgColor='#fff' style={{ height: 35, width: 35 }} />
